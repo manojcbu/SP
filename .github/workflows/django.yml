@@ -27,6 +27,6 @@ jobs:
         
     - name: Run Tests
       run: |
-         pip install pytest
-         python3 program.py
+         pip install pytest 
+         python3 Pyprog.py
          python manage.py test
