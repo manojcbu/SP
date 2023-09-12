@@ -49,5 +49,5 @@ jobs:
       run: | 
 
 
-        python program.py
+        python3 program.py
           echo test, and deploy your project.
