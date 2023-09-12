@@ -18,3 +18,4 @@ solution = Solution()
 result = solution.toGoatLatin("I love Python")
 print(result)
 
+##
