@@ -27,5 +27,6 @@ jobs:
         pip install pytest
     - name: Run Tests
       run: | 
-         python3 Pyprog.py prog.py
+         python3 Pyprog.py 
+         python3 prog.py
        
