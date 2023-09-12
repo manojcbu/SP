@@ -24,9 +24,8 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        
+        pip install pytest
     - name: Run Tests
-      run: |
-         pip install pytest 
+      run: | 
          python3 Pyprog.py
          python manage.py test
